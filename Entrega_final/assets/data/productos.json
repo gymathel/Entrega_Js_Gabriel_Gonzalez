@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "titulo": "Sesión de Retrato Profesional",
+    "categoria": "servicios",
+    "precio": 45000,
+    "imagen": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+    "descripcion": "Coaching de pose, 2 cambios de vestuario y 10 fotos editadas en alta resolución."
+  },
+  {
+    "id": 2,
+    "titulo": "Fotografía Documental de Evento",
+    "categoria": "servicios",
+    "precio": 85000,
+    "imagen": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=600&q=80",
+    "descripcion": "Cobertura de 4 horas con entrega de galería digital completa."
+  },
+  {
+    "id": 3,
+    "titulo": "Print Enmarcado - Bosque Encantado",
+    "categoria": "prints",
+    "precio": 28000,
+    "imagen": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+    "descripcion": "Imprenta Fine Art 50x70cm en papel algodón con marco de madera."
+  },
+  {
+    "id": 4,
+    "titulo": "Print Enmarcado - Cumbres Andinas",
+    "categoria": "prints",
+    "precio": 32000,
+    "imagen": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=600&q=80",
+    "descripcion": "Edición limitada de fotografía de paisaje enmarcada 60x90cm."
+  },
+  {
+    "id": 5,
+    "titulo": "Taller Fotográfico: Retrato e Iluminación",
+    "categoria": "talleres",
+    "precio": 35000,
+    "imagen": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80",
+    "descripcion": "Masterclass presencial de 1 jornada intensiva con modelo en estudio."
+  }
+]

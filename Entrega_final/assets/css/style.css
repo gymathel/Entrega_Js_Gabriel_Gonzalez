@@ -1,0 +1,127 @@
+:root {
+    --studio-bg: #fdfbf7;
+    --studio-dark: #111111;
+    --studio-orange: #ff725e;
+    --transition-smooth: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+body.studio-bg {
+    background-color: var(--studio-bg);
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    color: var(--studio-dark);
+}
+
+.custom-nav {
+    background-color: rgba(253, 251, 247, 0.95);
+    backdrop-filter: blur(8px);
+}
+
+.nav-instagram-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white !important;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    transition: var(--transition-smooth);
+}
+
+.nav-instagram-icon:hover {
+    transform: scale(1.1) rotate(8deg);
+}
+
+.badge-top {
+    background-color: #fcefe3;
+    color: #d97d41;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 6px 16px;
+    border-radius: 30px;
+}
+
+.btn-orange-pill {
+    background-color: var(--studio-orange);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    transition: var(--transition-smooth);
+}
+
+.btn-orange-pill:hover {
+    background-color: #e65c49;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Tira de imágenes */
+.portfolio-strip-container {
+    width: 100%;
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.portfolio-strip {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.strip-item {
+    flex: 1;
+    min-width: 140px;
+    max-width: 190px;
+    height: 260px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: var(--transition-smooth);
+}
+
+.strip-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item-tilt-L2 { transform: translateY(12px) rotate(-3deg); }
+.item-tilt-L1 { transform: translateY(4px) rotate(-1.5deg); }
+.item-center  { transform: translateY(0) scale(1.02); z-index: 2; }
+.item-tilt-R1 { transform: translateY(4px) rotate(1.5deg); }
+.item-tilt-R2 { transform: translateY(12px) rotate(3deg); }
+
+.strip-item:hover {
+    transform: scale(1.06) translateY(-6px) rotate(0deg);
+    z-index: 5;
+}
+
+.product-card {
+    border: none;
+    border-radius: 16px;
+    background: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+}
+
+.product-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.cart-item-img {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 8px;
+}
